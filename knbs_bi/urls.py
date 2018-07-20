@@ -130,7 +130,8 @@ from governance.views import governance, crimesReportedView, offenceSexView, reg
     editRegisteredVotersCounty, addRegisteredVotersCounty, casesForwardedActed, casesVariousCourts, casesEACC, \
     crimesReported, offenceSex, registeredVotersCounty, prisonersOffencesex, environmentalCrimes, convictedPrisonAgeSex, \
     policePrisonsProbation, offenceMorality, homicideSex, robberyTheft, dailyAvearge, fireArms, idCards, courtStaff, \
-    murderCases, refugeeAgeSex, offendersServing, passportPermits, personsReported, prisonPopulation, publicAssets
+    murderCases, refugeeAgeSex, offendersServing, passportPermits, personsReported, prisonPopulation, publicAssets, \
+    AllidentityCardsMadeProcessedAndCollected, identityCardsMadeProcessedAndCollected
 from health.views import aboveFive, diseaseList, allDiseases, Deaths, belowFive, allHealthFacilities, allPersonnel, \
     allMembers, allNhifResources, immunizationRate, health, allImmunizationRate, addImmunizationView, \
     editImmunizationView, addImmunization, editImmunization, morbidityBelow, addMorbidityView, editMorbidityView, \
@@ -508,6 +509,7 @@ urlpatterns = [
     url(r'^trade_and_commerce/all_trade_amount', tradeAmount),
     url(r'^trade_and_commerce/add_trade_amount', addTradeAmount),
     url(r'^trade_and_commerce/edit_trade_amount', editTradeAmount),
+
     url(r'^governance/all_crimes_reported_to_police_by_command_stations', crimesReported),
     url(r'^governance/add_crimes_reported_to_police_by_command_stations', addCrimesReported),
     url(r'^governance/edit_crimes_reported_to_police_by_command_stations', editCrimesReported),
@@ -538,6 +540,9 @@ urlpatterns = [
     url(r'^governance/all_persons_reported_to_have_committed_offences_related_to_drugs', personsReported),
     url(r'^governance/all_prison_population_by_sentence_duration_and_sex', prisonPopulation),
     url(r'^governance/all_public_assets_traced_recovered_and_loss_averted', publicAssets),
+    url(r'^governance/AllidentityCardsMadeProcessedAndCollected', AllidentityCardsMadeProcessedAndCollected),
+    url(r'^governance_identity_cards_made_processed_and_collected', identityCardsMadeProcessedAndCollected),
+
     url(r'^land_and_climate/all_surface_area_by_category', surfaceArea),
     url(r'^land_and_climate/add_surface_area_by_category', addSurfaceArea),
     url(r'^land_and_climate/edit_surface_area_by_category', editSurfaceArea),

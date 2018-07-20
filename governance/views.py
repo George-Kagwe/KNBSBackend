@@ -303,6 +303,108 @@ def editRegisteredVotersCounty(request):
     # response = {'success'}
     return Response(status=status.HTTP_201_CREATED)
 
+
+
+####################################Identity_Cards_Made_Processed_And_Collected####################################
+#launch Page
+def identityCardsMadeProcessedAndCollected(request):
+    identyCards = Identity_Cards_Made_Processed_And_Collected.objects.all()
+
+    IDS = []
+
+    if identyCards:
+        for ID in identyCards:
+            county = Counties.objects.get(county_id=ID.county_id)
+
+            c = {'id': ID.nprs_id, 'county': county.county_name, 'id_applications': ID.npr_apps_made,
+                 'Id_produced': ID.npr_ids_prod, 'id_collected': ID.npr_ids_collected,'year':ID.year}
+            IDS.append(c)
+            context = {'IDS': IDS}
+    else:
+        pass
+
+    return render(request, 'knbs_bi/governance_identity_cards_made_processed.html', context)
+
+#All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def AllidentityCardsMadeProcessedAndCollected(request):
+   identyCards = Identity_Cards_Made_Processed_And_Collected.objects.all()
+
+   IDs = []
+
+   if identyCards:
+        for ID in identyCards:
+            county = Counties.objects.get(county_id=ID.county_id)
+         
+            c = {'id': ID.nprs_id, 'county': county.county_name, 'id_applications':ID.npr_apps_made,
+                        'Id_produced': ID.npr_ids_prod, 'id_collected': ID.npr_ids_collected}
+            IDs.append(c)
+            context = {'IDS': IDs}
+   else:
+       pass
+
+
+   return Response(IDs)
+
+# Add View
+def addidentityCardsMadeProcessedAndCollectedView(request):
+    all_counties = Counties.objects.all()
+    sub_county = SubCounty.objects.all()
+    context = {'counties': all_counties, 'sub': sub_county}
+    return render(request, 'knbs_bi/governance_registered_voters_by_county_and_by_sex_add.html', context)
+
+# Edit View
+def editidentityCardsMadeProcessedAndCollectedView(request):
+    all_counties = Counties.objects.all()
+    sub_county = SubCounty.objects.all()
+    context = {'counties': all_counties, 'sub': sub_county}
+    return render(request, 'knbs_bi/governance_registered_voters_by_county_and_by_sex_edit.html', context)
+
+# Add Record
+@api_view(http_method_names=['POST'])
+@renderer_classes((JSONRenderer,))
+def addidentityCardsMadeProcessedAndCollected(request):
+    counties = Counties.objects.get(county_name=request.data['county'])
+    sub = SubCounty.objects.get(subcounty_name=request.data['sub_county'])
+
+    if counties and sub:
+        kaunti = counties.county_id
+        sub_kaunti = sub.subcounty_id
+
+        offence_add = Registered_Voters_By_County_And_By_Sex(county_id=kaunti, sub_counties_id=sub_kaunti, reg_voters=request.data['voters'], gender=request.data['gender'])
+        if offence_add:
+            offence_add.save()
+            return Response(status=status.HTTP_201_CREATED)
+        return Response(status=status.HTTP_400_BAD_REQUEST)
+
+#Edit Record
+@api_view(http_method_names=['POST'])
+@renderer_classes((JSONRenderer,))
+def editidentityCardsMadeProcessedAndCollected(request):
+    offence_edit = Registered_Voters_By_County_And_By_Sex.objects.get(voters_id=request.data['voter_id'])
+
+    if 'county' in request.data:
+        counties = Counties.objects.get(county_name=request.data['county'])
+        if counties:
+            offence_edit.county_id = counties.county_id
+
+    if 'sub_county' in request.data:
+        sub = SubCounty.objects.get(subcounty_name=request.data['sub_county'])
+        if sub:
+            offence_edit.sub_counties_id = sub.subcounty_id
+
+    if 'voters' in request.data:
+        offence_edit.reg_voters = request.data['voters']
+
+    if 'gender' in request.data:
+        offence_edit.gender = request.data['gender']
+
+
+    offence_edit.save()
+    # response = {'success'}
+    return Response(status=status.HTTP_201_CREATED)
+
 ####################################Cases_Handled_By_Various_Courts####################################
 #launch Page
 def casesVariousCourtsView(request):

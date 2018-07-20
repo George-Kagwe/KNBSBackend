@@ -86,14 +86,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">County Crimes Reported By Command Stations</span>
-									<?php
-										$response = total("total_revenue","county_revenue");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="county_cppcs"></small>
 										&nbsp
@@ -111,14 +104,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">County Offence By Sex And Command Stations</span>
-									<?php
-										$response = total("total","county_expenditure");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="county_oscs"></small>
 										&nbsp
@@ -136,14 +122,25 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">County Registered Voters By County And By Sex</span>
-									<?php
-										$response = total("total","county_budget_allocation");
+									
+									<span class="stats-counter">
+										<small id="county_rvcs"></small>
+										&nbsp
 
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									</span>
+								</div>
+							</div>
+						</a>
+                    </div>
+                    </div>
+                    <!--Identity_Cards_Made_Processed_And_Collected-->
+                     <div class="row no-m-t no-m-b">
+					<div class="col s12 m12 l4">
+						<a href="/governance_identity_cards_made_processed_and_collected">
+							<div class="card stats-card">
+								<div class="card-content">
+									<span class="card-title">Identity cards Made  processed and collected</span>
+									
 									<span class="stats-counter">
 										<small id="county_rvcs"></small>
 										&nbsp
@@ -163,14 +160,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Cases Handled By Various Courts</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="cases_handled"></small>
 										&nbsp
@@ -187,14 +177,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Cases Forwarded And Action Taken</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="cases_action_taken"></small>
 										&nbsp
@@ -211,14 +194,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Environmental Crimes Reported To Nema</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="environmental_crimes"></small>
 										&nbsp
@@ -235,14 +211,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Cases Handled By Ethics Commision</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="cases_hadled_eacc"></small>
 										&nbsp
@@ -259,14 +228,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Offences Committed Against Morality</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="offences_cam"></small>
 										&nbsp
@@ -283,14 +245,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Convicted Prisoners By Type Of Offence And Sex</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="convicted_pyos"></small>
 										&nbsp
@@ -307,14 +262,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Convicted Prison Population By Age And Sex</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="convicted_ppas"></small>
 										&nbsp
@@ -332,16 +280,9 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Number Of Police Prisons And Probation Officers</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
-										<small id="number_pppo">></small>
+										<small id="number_pppo"></small>
 										&nbsp
 
 									</span>
@@ -358,14 +299,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Persons Reported To Have Committed Homicide By Sex</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="persons_rhchs"></small>
 										&nbsp
@@ -383,14 +317,7 @@
 							<div class="card stats-card">
 								<div class="card-content">
 									<span class="card-title">Persons Reported To Have Committed Robbery And Theft</span>
-									<?php
-										$response = total("total","county_budget_allocation");
-
-										if($response!=0){
-											$total = $response[0]['total'];
-											$year = $response[0]['year'];
-										}
-									?>
+									
 									<span class="stats-counter">
 										<small id="persons_rhcrt"></small>
 										&nbsp
@@ -407,14 +334,7 @@
 {#							<div class="card stats-card">#}
 {#								<div class="card-content">#}
 {#									<span class="card-title">Cdf Allocation</span>#}
-{#									<?php#}
-{#										$response = total("total","county_budget_allocation");#}
-{##}
-{#										if($response!=0){#}
-{#											$total = $response[0]['total'];#}
-{#											$year = $response[0]['year'];#}
-{#										}#}
-{#									?>#}
+{#									
 {#									<span class="stats-counter">#}
 {#										<small>Last Update: <?php echo $year ?></small>#}
 {#										&nbsp#}
@@ -431,14 +351,7 @@
 {#							<div class="card stats-card">#}
 {#								<div class="card-content">#}
 {#									<span class="card-title">Money and Banking</span>#}
-{#									<?php#}
-{#										$response = total("total","county_budget_allocation");#}
-{##}
-{#										if($response!=0){#}
-{#											$total = $response[0]['total'];#}
-{#											$year = $response[0]['year'];#}
-{#										}#}
-{#									?>#}
+{#									
 {#									<span class="stats-counter">#}
 {#										<small>Last Update: <?php echo $year ?></small>#}
 {#										&nbsp#}
@@ -455,14 +368,7 @@
 {#							<div class="card stats-card">#}
 {#								<div class="card-content">#}
 {#									<span class="card-title">Excise Revenue</span>#}
-{#									<?php#}
-{#										$response = total_single_year("total","excise_revenue_commodity");#}
-{##}
-{#										if($response!=0){#}
-{#											$total = $response[0]['total'];#}
-{#											$year = $response[0]['year'];#}
-{#										}#}
-{#									?>#}
+{#									
 {#									<span class="stats-counter">#}
 {#										<small>Last Update: <?php echo $year ?></small>#}
 {#										&nbsp#}
@@ -479,14 +385,7 @@
 {#							<div class="card stats-card">#}
 {#								<div class="card-content">#}
 {#									<span class="card-title">Economic Classification Revenue</span>#}
-{#									<?php#}
-{#										$response = total("total","economic_classification_revenue");#}
-{##}
-{#										if($response!=0){#}
-{#											$total = $response[0]['total'];#}
-{#											$year = $response[0]['year'];#}
-{#										}#}
-{#									?>#}
+{#									
 {#									<span class="stats-counter">#}
 {#										<small>Last Update: <?php echo $year ?></small>#}
 {#										&nbsp#}
@@ -503,14 +402,7 @@
 {#							<div class="card stats-card">#}
 {#								<div class="card-content">#}
 {#									<span class="card-title">National Government Expenditure</span>#}
-{#									<?php#}
-{#										$response = total_single_year("total","national_government_expenditure");#}
-{##}
-{#										if($response!=0){#}
-{#											$total = $response[0]['total'];#}
-{#											$year = $response[0]['year'];#}
-{#										}#}
-{#									?>#}
+{#									
 {#									<span class="stats-counter">#}
 {#										<small>Last Update: <?php echo $year ?></small>#}
 {#										&nbsp#}
@@ -528,14 +420,7 @@
 {#							<div class="card stats-card">#}
 {#								<div class="card-content">#}
 {#									<span class="card-title">National Government Expenditure by Purpose</span>#}
-{#									<?php#}
-{#										$response = total_single_year("health","national_government_expenditure_purpose");#}
-{##}
-{#										if($response!=0){#}
-{#											$total = $response[0]['total'];#}
-{#											$year = $response[0]['year'];#}
-{#										}#}
-{#									?>#}
+{#								
 {#									<span class="stats-counter">#}
 {#										<small>Last Update: <?php echo $year ?></small>#}
 {#										&nbsp#}
