@@ -12,17 +12,17 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.CreateModel(
-            name='Sectors',
-            fields=[
-                ('sector_id', models.AutoField(primary_key=True, serialize=False)),
-                ('sector_name', models.CharField(max_length=100)),
-                ('report', models.CharField(max_length=100)),
-                ('coverage', models.CharField(max_length=100)),
-                ('source', models.CharField(max_length=100)),
-                ('table_name', models.CharField(max_length=100)),
-                ('api_url', models.CharField(max_length=100)),
-                ('embed_script', models.TextField()),
-            ],
-        ),
+        # migrations.CreateModel(
+        #     name='Sectors',
+        #     fields=[
+        #         ('sector_id', models.AutoField(primary_key=True, serialize=False)),
+        #         ('sector_name', models.CharField(max_length=100)),
+        #         ('report', models.CharField(max_length=100)),
+        #         ('coverage', models.CharField(max_length=100)),
+        #         ('source', models.CharField(max_length=100)),
+        #         ('table_name', models.CharField(max_length=100)),
+        #         ('api_url', models.CharField(max_length=100)),
+        #         ('embed_script', models.TextField()),
+        #     ],
+        # ),
     ]

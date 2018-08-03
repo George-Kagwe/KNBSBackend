@@ -10,7 +10,11 @@ from health.models import Counties
 from population.models import PopulationBySexHouseholdsDensityAndCensusYears, PopulationProjectionsBySelectedAgeGroup, \
     PopulationProjectionsBySpecialAgeGroups, Households_Type_Floor_Material_Main_Dwelling_Unit, \
     Households_By_Main_Source_of_Water, By_Type_of_Disability, Percentage_Households_Ownership_Household_Assets, \
-    Distribution_Sex_Number_Households_Area_Density, By_Sex_And_School_Attendance, By_Sex_And_Age_Groups
+    Distribution_Sex_Number_Households_Area_Density, By_Sex_And_School_Attendance, By_Sex_And_Age_Groups, \
+    Kihibs_By_Broad_Age_Group, Kihibs_Children_Under_18_By_Orphanhood, Kihibs_Distribution_By_Sex, \
+    Kihibs_Distribution_Of_Households_By_Size, Kihibs_Hholds_By_Sex_Of_Household_Head, \
+    Kihibs_Marital_Status_Above_18_Years
+
 
 def population(request):
     return render(request, template_name='knbs_bi/population.html')
@@ -704,7 +708,139 @@ def editBySexAndAgeGroup(request):
     # response = {'success'}
     return Response(status=status.HTTP_201_CREATED)
 
+############################################KIHBIS II############################################
+####################################Kihibs_By_Broad_Age_Group####################################
+# All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def broadAgeGroup(request):
+    age_group = Kihibs_By_Broad_Age_Group.objects.all()
 
+    records = []
+
+    if age_group:
+        for record in age_group:
+            county = Counties.objects.get(county_id=record.county_id)
+
+            c = {'county': county.county_name, 'range_0_14': record.range_0_14, 'range_15_64': record.range_15_64,
+                 'over_65': record.over_65, 'not_stated': record.not_stated, 'age_depend_ratio': record.age_depend_ratio,
+                 'child_depend_ratio': record.child_depend_ratio, 'old_age_depend_ratio': record.old_age_depend_ratio, 'individuals': record.individuals}
+
+            records.append(c)
+    else:
+        pass
+    return Response(records)
+
+####################################Kihibs_Children_Under_18_By_Orphanhood####################################
+# All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def orphanHood(request):
+    orphan_hood = Kihibs_Children_Under_18_By_Orphanhood.objects.all()
+
+    records = []
+
+    if orphan_hood:
+        for record in orphan_hood:
+            county = Counties.objects.get(county_id=record.county_id)
+
+            c = {'county': county.county_name, 'living_with_both': record.living_with_both, 'father_alive': record.father_alive,
+                 'father_deceased': record.father_deceased, 'mother_alive': record.mother_alive, 'mother_deceased': record.mother_deceased,
+                 'both_alive': record.both_alive, 'only_father_alive': record.only_father_alive, 'only_mother_alive': record.only_mother_alive,
+                 'both_parents_deceased': record.both_parents_deceased, 'missing_info': record.missing_info, 'orphanhood': record.orphanhood,
+                 'individuals': record.individuals}
+
+            records.append(c)
+    else:
+        pass
+    return Response(records)
+
+####################################Kihibs_Distribution_By_Sex####################################
+# All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def distributionBySex(request):
+    dist_sex = Kihibs_Distribution_By_Sex.objects.all()
+
+    records = []
+
+    if dist_sex:
+        for record in dist_sex:
+            county = Counties.objects.get(county_id=record.county_id)
+
+            c = {'county': county.county_name, 'male_individuals': record.male_individuals, 'male_per_cent': record.male_per_cent,
+                 'female_individuals': record.female_individuals, 'female_per_cent': record.female_per_cent, 'sex_ratio': record.sex_ratio,
+                 'individuals': record.individuals}
+
+            records.append(c)
+    else:
+        pass
+    return Response(records)
+
+####################################Kihibs_Distribution_Of_Households_By_Size####################################
+# All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def distributionHouseholdsSize(request):
+    dist_households = Kihibs_Distribution_Of_Households_By_Size.objects.all()
+
+    records = []
+
+    if dist_households:
+        for record in dist_households:
+            county = Counties.objects.get(county_id=record.county_id)
+
+            c = {'county': county.county_name, 'range_1_2_persons': record.range_1_2_persons, 'range_3_4_persons': record.range_3_4_persons,
+                 'range_5_6_persons': record.range_5_6_persons, 'over_7_persons': record.over_7_persons, 'households': record.households,
+                 'mean_hhold_size': record.mean_hhold_size}
+
+            records.append(c)
+    else:
+        pass
+    return Response(records)
+
+####################################Kihibs_Hholds_By_Sex_Of_Household_Head####################################
+# All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def householdHead(request):
+    household_head = Kihibs_Hholds_By_Sex_Of_Household_Head.objects.all()
+
+    records = []
+
+    if household_head:
+        for record in household_head:
+            county = Counties.objects.get(county_id=record.county_id)
+
+            c = {'county': county.county_name, 'male': record.male, 'female': record.female,
+                 'households': record.households}
+
+            records.append(c)
+    else:
+        pass
+    return Response(records)
+
+####################################Kihibs_Marital_Status_Above_18_Years####################################
+# All Records
+@api_view(http_method_names=['GET'])
+@renderer_classes((JSONRenderer,))
+def maritalStatus(request):
+    marital_status = Kihibs_Marital_Status_Above_18_Years.objects.all()
+
+    records = []
+
+    if marital_status:
+        for record in marital_status:
+            county = Counties.objects.get(county_id=record.county_id)
+
+            c = {'county': county.county_name, 'monogamous': record.monogamous, 'polygamous': record.polygamous,
+                 'living_together': record.living_together, 'seperated': record.seperated, 'divorced': record.divorced,
+                 'widow_widower': record.widow_widower, 'never_married': record.never_married, 'individuals': record.individuals}
+
+            records.append(c)
+    else:
+        pass
+    return Response(records)
 
 
 

@@ -23,6 +23,11 @@ from CPI.views import averageRetail, addAverageRetail, editAverageRetail, cpi, a
     editElementaryWeightsView, elementaryWeights, addElementaryWeights, editElementaryWeights, editGroupWeights, \
     addGroupWeights, groupWeights, groupWeightsView, addGroupWeightsView, editGroupWeightsView, groupWeightsKenyaView, \
     addGroupWeightsKenyaView, editGroupWeightsKenyaView, groupWeightsKenya, addGroupWeightsKenya, editGroupWeightsKenya
+from Household_Income.views import householdsCredit
+from Housing_Conditions.views import householdsType, householdsHabitable, householdsRented, householdsTenure, \
+    householdsRoofing, mainWallMaterial, ownerOccupier, placeWashing, sharingToilet, wasteDisposal, drinkingWater, \
+    waterUsed, floorMaterials, lightingFuel, toiletFacility, waterSafer, cookingFuel, cookingAppliance, \
+    sourceDrinkingWater
 from ICT.views import householdsOwned, householdsInternet, householdsTV, householdsWithoutInternet, populationNoPhone, \
     populationMobileMoney, populationIctEquipment, populationIctNotUseInternet, populationIctUsedInternet, \
     populationInternetPlace, populationWithMobile
@@ -191,7 +196,8 @@ from money_and_banking.views import commercialBanks, addCommercialBanks, editCom
 from political.views import allUnits, editUnitsView, addUnitsView, allUnitsView, political, editPolitical, addPolitical
 from population.views import populationSpecialGroup, populationSelectedAge, populationSex, \
     houseHoldTypeMainDwellingUnit, disabilityType, houseOwnershipHouseholdAssets, houseHoldBySourceOfWater, \
-    bySexAndAttendance, bySexAndAgeGroup
+    bySexAndAttendance, bySexAndAgeGroup, broadAgeGroup, orphanHood, distributionBySex, distributionHouseholdsSize, \
+    householdHead, maritalStatus
 from tourism.models import Visitors_To_Museums
 from tourism.views import TouristArrivals, ConferencesHeld, TouristDepartures, TourismEarnings, \
     Hotel_Occupancy_By_Residences, Hotels_By_Zone, All_Visitor_To_Parks, All_Visitors_To_Museums, \
@@ -662,6 +668,12 @@ urlpatterns = [
     url(r'^population/houseOwnershipHouseholdAssets', houseOwnershipHouseholdAssets),
     url(r'^population/bySexAndAttendance', bySexAndAttendance),
     url(r'^population/bySexAndAgeGroup', bySexAndAgeGroup),
+    url(r'^population/all_kihibs_by_broad_age_group', broadAgeGroup),
+    url(r'^population/all_kihibs_children_under_18_by_orphanhood', orphanHood),
+    url(r'^population/all_kihibs_distribution_by_sex', distributionBySex),
+    url(r'^population/all_kihibs_distribution_of_households_by_size', distributionHouseholdsSize),
+    url(r'^population/all_kihibs_hholds_by_sex_of_household_head', householdHead),
+    url(r'^population/all_kihibs_marital_status_above_18_years', maritalStatus),
     url(r'^trade_and_commerce/all_trade_title', tradeTitle),  # Table not existing
     url(r'^trade_and_commerce/all_trade_id', tradeID),
     url(r'^trade_and_commerce/all_trade_amount', tradeAmount),
@@ -701,6 +713,26 @@ urlpatterns = [
     url(r'^poverty/all_distribution_of_households_by_point_of_purchased_food_items', distributionHouseholds),
     url(r'^poverty/all_distribution_of_household_food_consumption', distributionHouseholdsFood),
     url(r'^poverty/all_consumption_expenditure_and_quintile_distribution', consumptionExpenditure),
+    url(r'^household_income/all_household_kihibs_households_that_sought_credit', householdsCredit),
+    url(r'^housing_conditions/all_kihibs_hholds_by_type_of_housing_unit', householdsType),
+    url(r'^housing_conditions/all_kihibs_hholds_by_habitable_rooms', householdsHabitable),
+    url(r'^housing_conditions/all_kihibs_hholds_in_rented_dwellings', householdsRented),
+    url(r'^housing_conditions/all_kihibs_hholds_by_housing_tenure', householdsTenure),
+    url(r'^housing_conditions/all_kihibs_main_roofing_material', householdsRoofing),
+    url(r'^housing_conditions/all_kihibs_main_wall_material', mainWallMaterial),
+    url(r'^housing_conditions/all_kihibs_owner_occupier_dwellings', ownerOccupier),
+    url(r'^housing_conditions/all_kihibs_place_for_washing_hands_near_toilet', placeWashing),
+    url(r'^housing_conditions/all_kihibs_sharing_of_toilet_facility', sharingToilet),
+    url(r'^housing_conditions/all_kihibs_waste_disposal_method', wasteDisposal),
+    url(r'^housing_conditions/all_kihibs_time_taken_to_fetch_drinking_water', drinkingWater),
+    url(r'^housing_conditions/all_kihibs_volume_of_water_used', waterUsed),
+    url(r'^housing_conditions/all_kihibs_main_floor_material', floorMaterials),
+    url(r'^housing_conditions/all_kihibs_main_source_of_drinking_water', sourceDrinkingWater),
+    url(r'^housing_conditions/all_kihibs_main_source_of_lighting_fuel', lightingFuel),
+    url(r'^housing_conditions/all_kihibs_main_toilet_facility', toiletFacility),
+    url(r'^housing_conditions/all_kihibs_methods_used_to_make_water_safer', waterSafer),
+    url(r'^housing_conditions/all_kihibs_main_source_of_cooking_fuel', cookingFuel),
+    url(r'^housing_conditions/all_kihibs_primary_type_of_cooking_appliance', cookingAppliance),
 
     url(r'^home', index),
     url(r'^health$', health),

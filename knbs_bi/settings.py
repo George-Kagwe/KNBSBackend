@@ -63,7 +63,9 @@ INSTALLED_APPS = [
     'environment_and_natural_resources.apps.EnvironmentAndNaturalResourcesConfig',
     'ICT.apps.IctConfig',
     'Nutrition.apps.NutritionConfig',
-    'Poverty.apps.PovertyConfig'
+    'Poverty.apps.PovertyConfig',
+    'Household_Income.apps.HouseholdIncomeConfig',
+    'Housing_Conditions.apps.HousingConditionsConfig'
 
 ]
 

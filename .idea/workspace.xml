@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7be70668-8e24-4095-95d3-d1c7df4d85a2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/knbs_bi (43).sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/knbs_bi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/knbs_bi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/governance/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/governance/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knbs_bi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/knbs_bi/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/knbs_bi/governance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/knbs_bi/governance.html" afterDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/knbs_bi.iml" afterPath="$PROJECT_DIR$/.idea/knbs_bi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/health/migrations/0010_sectors.py" afterPath="$PROJECT_DIR$/health/migrations/0010_sectors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knbs_bi/settings.py" afterPath="$PROJECT_DIR$/knbs_bi/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knbs_bi/urls.py" afterPath="$PROJECT_DIR$/knbs_bi/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/population/models.py" afterPath="$PROJECT_DIR$/population/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/population/views.py" afterPath="$PROJECT_DIR$/population/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html" afterPath="$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,17 +50,42 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knbs_bi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5865">
-              <caret line="543" column="11" selection-start-line="543" selection-start-column="11" selection-end-line="543" selection-end-column="11" />
+            <state relative-caret-position="-4443">
+              <caret line="729" column="88" lean-forward="true" selection-start-line="729" selection-start-column="88" selection-end-line="729" selection-end-column="88" />
+              <folding>
+                <element signature="e#641#673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/education/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5717">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/population/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/governance/views.py">
+        <entry file="file://$PROJECT_DIR$/population/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5100">
-              <caret line="319" column="100" selection-start-line="319" selection-start-column="100" selection-end-line="319" selection-end-column="100" />
+            <state relative-caret-position="109">
+              <caret line="827" column="43" lean-forward="false" selection-start-line="827" selection-start-column="43" selection-end-line="827" selection-end-column="43" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -67,23 +93,162 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="governance_identity_cards_made_processed.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/governance/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+            <state relative-caret-position="4800">
+              <caret line="421" column="12" lean-forward="false" selection-start-line="421" selection-start-column="12" selection-end-line="421" selection-end-column="12" />
               <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <marker date="1532093060162" expanded="true" signature="11583:15434" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="15471:16081" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="15574:15962" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="15608:15962" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="15626:15894" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16200:16682" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16303:16631" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16337:16631" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16355:16602" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16684:16815" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16853:17387" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="16972:17253" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17008:17253" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17026:17176" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17507:17878" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17626:17824" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17662:17824" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17680:17792" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="17880:18002" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18040:18516" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18144:18391" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18176:18391" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18194:18320" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18636:18976" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18740:18924" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18772:18924" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18790:18894" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="18978:19096" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19124:19550" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19225:19429" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19257:19429" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19275:19361" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19660:20006" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19761:19955" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19793:19955" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="19811:19926" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20008:20125" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20162:20640" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20264:20520" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20297:20520" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20315:20452" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20760:21108" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20862:21057" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20895:21057" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="20913:21028" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="21110:21237" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="21277:21792" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="21386:21662" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="21419:21662" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="21437:21585" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="21914:22274" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22023:22220" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22056:22220" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22074:22188" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22276:22408" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22449:22942" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22552:22807" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22579:22807" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="22597:22733" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23065:23407" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23168:23354" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23195:23354" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23213:23323" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23409:23529" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23563:24084" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23665:23961" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23698:23961" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="23716:23884" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24200:24553" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24302:24499" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24335:24499" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24353:24467" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24555:24690" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24720:25253" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24845:25115" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24882:25115" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="24900:25038" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="25365:25743" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="25490:25689" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="25527:25689" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="25545:25657" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="25745:25882" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="25913:26456" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26044:26316" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26083:26316" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26101:26239" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26569:26955" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26700:26901" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26739:26901" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26757:26869" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="26957:27086" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27185:27562" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27306:27508" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27344:27508" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27362:27476" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27564:27697" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27792:28237" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27910:28184" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27945:28184" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="27963:28153" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="28239:28367" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="28461:28944" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="28568:28893" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="28598:28893" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="28684:28864" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="28946:29072" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29169:29529" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29284:29474" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29321:29474" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29531:29667" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29765:30224" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29888:30173" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29922:30173" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="29940:30144" ph="..." />
+                <marker date="1532093060162" expanded="true" signature="30226:30344" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="governance_environmental_crimes_reported_to_nema.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/knbs_bi/governance_environmental_crimes_reported_to_nema.html">
+      <file leaf-file-name="governance_identity_cards_made_processed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Housing_Conditions/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Housing_Conditions/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="314" column="23" lean-forward="false" selection-start-line="314" selection-start-column="4" selection-end-line="314" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,12 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_nairobi_securities_exchange_add.html" />
-        <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_nairobi_securities_exchange.html" />
-        <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_monetary_indicators_domestic_credit_add.html" />
-        <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_monetary_indicators_domestic_credit_edit.html" />
-        <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_monetary_indicators_domestic_credit.html" />
-        <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_monetary_indicators_broad_money_supply.html" />
         <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_monetary_indicators_broad_money_supply_add.html" />
         <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_inflation_rates.html" />
         <option value="$PROJECT_DIR$/templates/knbs_bi/money_and_banking_inflation_rates_add.html" />
@@ -160,7 +319,6 @@
         <option value="$PROJECT_DIR$/education/migrations/0012_distribution_abovethreeyears_highestlevel_reached_distribution_abovethreeyears_school_attendance_tra.py" />
         <option value="$PROJECT_DIR$/agriculture/views.py" />
         <option value="$PROJECT_DIR$/tourism/models.py" />
-        <option value="$PROJECT_DIR$/population/views.py" />
         <option value="$PROJECT_DIR$/ICT/models.py" />
         <option value="$PROJECT_DIR$/ICT/views.py" />
         <option value="$PROJECT_DIR$/education/models.py" />
@@ -169,14 +327,21 @@
         <option value="$PROJECT_DIR$/health/models.py" />
         <option value="$PROJECT_DIR$/health/views.py" />
         <option value="$PROJECT_DIR$/Nutrition/models.py" />
-        <option value="$PROJECT_DIR$/knbs_bi/settings.py" />
         <option value="$PROJECT_DIR$/Poverty/models.py" />
         <option value="$PROJECT_DIR$/Poverty/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/Nutrition/views.py" />
         <option value="$PROJECT_DIR$/Poverty/views.py" />
-        <option value="$PROJECT_DIR$/knbs_bi/urls.py" />
         <option value="$PROJECT_DIR$/governance/views.py" />
         <option value="$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html" />
+        <option value="$PROJECT_DIR$/health/migrations/0010_sectors.py" />
+        <option value="$PROJECT_DIR$/knbs_bi/settings.py" />
+        <option value="$PROJECT_DIR$/Household_Income/models.py" />
+        <option value="$PROJECT_DIR$/Household_Income/views.py" />
+        <option value="$PROJECT_DIR$/Housing_Conditions/models.py" />
+        <option value="$PROJECT_DIR$/population/models.py" />
+        <option value="$PROJECT_DIR$/population/views.py" />
+        <option value="$PROJECT_DIR$/Housing_Conditions/views.py" />
+        <option value="$PROJECT_DIR$/knbs_bi/urls.py" />
       </list>
     </option>
   </component>
@@ -191,7 +356,7 @@
       <path value="$PROJECT_DIR$/static/knbs_bi/assets/plugins/weather-icons-master/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-4" />
     <option name="y" value="152" />
     <option name="width" value="1598" />
@@ -200,9 +365,20 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,23 +421,37 @@
           <expand>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="KNBSBackend" type="cbb8eebc:String" user="KNBSBackend" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="KNBSBackend" type="cbb8eebc:String" user="KNBSBackend" />
-              <item name="governance" type="cbb8eebc:String" user="governance" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="KNBSBackend" type="cbb8eebc:String" user="KNBSBackend" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="KNBSBackend" type="cbb8eebc:String" user="KNBSBackend" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
               <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+              <item name="education" type="cbb8eebc:String" user="education" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+              <item name="health" type="cbb8eebc:String" user="health" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+              <item name="Household_Income" type="cbb8eebc:String" user="Household_Income" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+              <item name="Housing_Conditions" type="cbb8eebc:String" user="Housing_Conditions" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="knbs_bi" type="cbb8eebc:String" user="knbs_bi" />
+              <item name="population" type="cbb8eebc:String" user="population" />
             </path>
           </expand>
           <select />
@@ -273,7 +463,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -295,49 +485,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.models">
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knbs_bi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="knbs_bi" type="Python.DjangoServer" factoryName="Django server">
-      <module name="knbs_bi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="knbs_bi.settings" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,15 +518,59 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list>
-      <item itemvalue="Django server.knbs_bi" />
-      <item itemvalue="Python.models" />
+    <configuration name="knbs_bi" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="knbs_bi.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="knbs_bi" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="knbs_bi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.models" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.knbs_bi" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.models" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.models" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -403,54 +595,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.31946307" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29132792" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1381748" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24967907" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3261745" />
-      <window_info anchor="right" id="Data View" order="4" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30744544" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329806" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32055214" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32715008" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.304698" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -463,81 +630,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/knbs_bi/urls.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/knbs_bi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856">
-          <caret line="361" column="83" selection-start-line="361" selection-start-column="21" selection-end-line="361" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/knbs_bi/money_and_banking_nairobi_securities_exchange_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/knbs_bi/money_and_banking_monetary_indicators_broad_money_supply_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="81" column="80" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/knbs_bi/money_and_banking_inflation_rates_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="154" column="70" selection-start-line="154" selection-start-column="51" selection-end-line="154" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/knbs_bi/labour_average_wage_earnings_per_employee_private_sector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/knbs_bi/labour_average_wage_earnings_per_employee_private_sector_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/knbs_bi/labour_average_wage_earnings_per_employee_private_sector_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education/migrations/0012_secondary_school_enrolment_by_sex.py" />
     <entry file="file://$PROJECT_DIR$/education/migrations/0013_delete_public_primaryteachers_trainingcollege_enrolment.py" />
     <entry file="file://$PROJECT_DIR$/education/migrations/0011_auto_20180427_1236.py" />
     <entry file="file://$PROJECT_DIR$/education/migrations/0009_auto_20180427_1227.py" />
     <entry file="file://$PROJECT_DIR$/governance/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
-          <caret line="268" column="45" selection-start-line="268" selection-start-column="6" selection-end-line="268" selection-end-column="45" />
+          <caret line="268" column="45" lean-forward="false" selection-start-line="268" selection-start-column="6" selection-end-line="268" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/money_and_banking/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
-          <caret line="421" column="51" selection-start-line="343" selection-end-line="421" selection-end-column="51" />
+          <caret line="421" column="51" lean-forward="false" selection-start-line="343" selection-start-column="0" selection-end-line="421" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -550,26 +661,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/environment_and_natural_resources/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trade_and_commerce/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+          <caret line="87" column="32" lean-forward="false" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/conf/urls/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/agriculture/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/agriculture/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4165">
-          <caret line="245" selection-start-line="245" selection-end-line="245" />
+          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -577,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/tourism/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2208">
-          <caret line="138" column="54" selection-start-line="138" selection-start-column="54" selection-end-line="138" selection-end-column="54" />
+          <caret line="138" column="54" lean-forward="false" selection-start-line="138" selection-start-column="54" selection-end-line="138" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -585,9 +693,9 @@
     <entry file="file://$PROJECT_DIR$/environment_and_natural_resources/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="1172" column="13" selection-start-line="1172" selection-start-column="13" selection-end-line="1172" selection-end-column="13" />
+          <caret line="1172" column="13" lean-forward="false" selection-start-line="1172" selection-start-column="13" selection-end-line="1172" selection-end-column="13" />
           <folding>
-            <element signature="e#0#35#0" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,33 +703,23 @@
     <entry file="file://$PROJECT_DIR$/labour/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labour/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="694" column="20" selection-start-line="694" selection-start-column="20" selection-end-line="694" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/population/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="657" column="11" lean-forward="true" selection-start-line="657" selection-start-column="11" selection-end-line="657" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#35#0" />
-          </folding>
+          <caret line="694" column="20" lean-forward="false" selection-start-line="694" selection-start-column="20" selection-end-line="694" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trade_and_commerce/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
-          <caret line="348" selection-start-line="348" selection-end-line="348" />
+          <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -629,9 +727,10 @@
     <entry file="file://$PROJECT_DIR$/education/migrations/0012_distribution_abovethreeyears_highestlevel_reached_distribution_abovethreeyears_school_attendance_tra.py" />
     <entry file="file://$PROJECT_DIR$/finance/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -642,62 +741,28 @@
     <entry file="file://$PROJECT_DIR$/ICT/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="127" column="54" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="369" column="33" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
+          <caret line="127" column="54" lean-forward="false" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/education/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="2153" column="16" selection-start-line="2153" selection-start-column="16" selection-end-line="2153" selection-end-column="16" />
+          <caret line="2153" column="16" lean-forward="false" selection-start-line="2153" selection-start-column="16" selection-end-line="2153" selection-end-column="16" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finance/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/health/migrations/0020_kihibs_percentagedistribution_population_reportedsick_injuredtypeofsickness_kihibs_percentagedistrib.py" />
-    <entry file="file://$PROJECT_DIR$/health/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34595">
-          <caret line="2062" selection-start-line="2062" selection-end-line="2062" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5049">
-          <caret line="297" column="45" selection-start-line="285" selection-end-line="297" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tourism/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
+          <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knbs_bi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -711,16 +776,16 @@
     <entry file="file://$PROJECT_DIR$/Nutrition/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="16" />
+          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nutrition/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,57 +793,307 @@
     <entry file="file://$PROJECT_DIR$/Poverty/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="12" />
+          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Poverty/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICT/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2507">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/knbs_bi/governance_environmental_crimes_reported_to_nema.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knbs_bi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5865">
-          <caret line="543" column="11" selection-start-line="543" selection-start-column="11" selection-end-line="543" selection-end-column="11" />
+        <state relative-caret-position="2320">
+          <caret line="145" column="26" lean-forward="false" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/governance/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5100">
-          <caret line="319" column="100" selection-start-line="319" selection-start-column="100" selection-end-line="319" selection-end-column="100" />
+        <state relative-caret-position="4800">
+          <caret line="421" column="12" lean-forward="false" selection-start-line="421" selection-start-column="12" selection-end-line="421" selection-end-column="12" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1532093060162" expanded="true" signature="11583:15434" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="15471:16081" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="15574:15962" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="15608:15962" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="15626:15894" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16200:16682" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16303:16631" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16337:16631" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16355:16602" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16684:16815" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16853:17387" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="16972:17253" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17008:17253" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17026:17176" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17507:17878" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17626:17824" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17662:17824" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17680:17792" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="17880:18002" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18040:18516" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18144:18391" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18176:18391" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18194:18320" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18636:18976" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18740:18924" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18772:18924" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18790:18894" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="18978:19096" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19124:19550" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19225:19429" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19257:19429" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19275:19361" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19660:20006" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19761:19955" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19793:19955" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="19811:19926" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20008:20125" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20162:20640" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20264:20520" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20297:20520" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20315:20452" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20760:21108" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20862:21057" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20895:21057" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="20913:21028" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="21110:21237" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="21277:21792" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="21386:21662" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="21419:21662" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="21437:21585" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="21914:22274" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22023:22220" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22056:22220" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22074:22188" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22276:22408" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22449:22942" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22552:22807" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22579:22807" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="22597:22733" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23065:23407" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23168:23354" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23195:23354" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23213:23323" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23409:23529" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23563:24084" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23665:23961" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23698:23961" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="23716:23884" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24200:24553" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24302:24499" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24335:24499" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24353:24467" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24555:24690" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24720:25253" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24845:25115" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24882:25115" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="24900:25038" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="25365:25743" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="25490:25689" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="25527:25689" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="25545:25657" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="25745:25882" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="25913:26456" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26044:26316" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26083:26316" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26101:26239" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26569:26955" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26700:26901" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26739:26901" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26757:26869" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="26957:27086" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27185:27562" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27306:27508" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27344:27508" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27362:27476" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27564:27697" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27792:28237" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27910:28184" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27945:28184" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="27963:28153" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="28239:28367" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="28461:28944" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="28568:28893" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="28598:28893" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="28684:28864" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="28946:29072" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29169:29529" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29284:29474" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29321:29474" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29531:29667" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29765:30224" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29888:30173" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29922:30173" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="29940:30144" ph="..." />
+            <marker date="1532093060162" expanded="true" signature="30226:30344" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health/migrations/0010_sectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Household_Income/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knbs_bi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knbs_bi/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knbs_bi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="67" column="52" lean-forward="false" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/knbs_bi/governance_identity_cards_made_processed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="238" column="56" lean-forward="true" selection-start-line="238" selection-start-column="56" selection-end-line="238" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1645" column="64" lean-forward="true" selection-start-line="1645" selection-start-column="64" selection-end-line="1645" selection-end-column="64" />
           <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Household_Income/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Household_Income/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Housing_Conditions/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/population/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="827" column="43" lean-forward="false" selection-start-line="827" selection-start-column="43" selection-end-line="827" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/population/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Housing_Conditions/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="314" column="23" lean-forward="false" selection-start-line="314" selection-start-column="4" selection-end-line="314" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knbs_bi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4443">
+          <caret line="729" column="88" lean-forward="true" selection-start-line="729" selection-start-column="88" selection-end-line="729" selection-end-column="88" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5717">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
